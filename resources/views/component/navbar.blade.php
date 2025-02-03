@@ -27,9 +27,8 @@
         window.addEventListener("load", setActiveNav);
         window.addEventListener("hashchange", setActiveNav);
 
-        let lastScrollTop = 0;
         let navbar = document.getElementById("navbar");
-
+        
         window.addEventListener("scroll", function() {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             if (scrollTop > lastScrollTop) {
@@ -39,7 +38,9 @@
             }
             lastScrollTop = scrollTop;
         });
+            let lastScrollTop = 0;
         window.onload = function() {
-    navbar.style.top = "0";
-};
-    </script>
+            navbar.style.top = "0";
+            updateActiveLink();
+        };
+        </script>
