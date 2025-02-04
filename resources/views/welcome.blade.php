@@ -5,7 +5,7 @@
         <div class="relative z-10 max-w-4xl mx-auto flex items-center ">
             <div>
                 <h1 class="text-6xl font-bold text-white">Tool<span class="text-yellow-500">box.id</span></h1>
-                <h2 class="text-lg text-white mt-4">Pusat Perkakas Terlengkap</h2>
+                <h2 class="text-lg text-white mt-4">Pusat kontol Terlengkap</h2>
                 <button onclick="scrollToProduk()" class="mt-6 bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg">Lihat Sekarang</button>
             </div>
             <img src="img/a.png" class="ml-10">
