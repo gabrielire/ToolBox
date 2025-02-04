@@ -1,4 +1,5 @@
 @extends('layout.app')
+
 @section('detail')
 <div class="min-h-screen flex items-center justify-center">
     <div class="container mx-auto px-4 py-10">
@@ -12,16 +13,14 @@
 
         <div class="flex flex-col md:flex-row gap-10 max-w-4xl mx-auto">
             <!-- Carousel Gambar -->
-            <div x-data="{ activeImage: 0, images: ['img/b.png', 'b.png', 'b.png'] }" class="w-full md:w-1/2">
+            <div class="w-full md:w-1/2">
                 <div class="relative w-full">
-                    <img :src="images[activeImage]" class="w-full h-80 object-cover rounded-lg">
+                    <img id="mainImage" src="{{ asset('img/b.png') }}" class="w-full h-80 object-cover rounded-lg">
                     <div class="absolute inset-0 flex items-center justify-between px-4">
-                        <button @click="activeImage = (activeImage > 0) ? activeImage - 1 : images.length - 1" 
-                            class="bg-gray-800 text-white p-2 rounded-full">
+                        <button onclick="prevImage()" class="bg-gray-800 text-white p-2 rounded-full">
                             &#10094;
                         </button>
-                        <button @click="activeImage = (activeImage < images.length - 1) ? activeImage + 1 : 0" 
-                            class="bg-gray-800 text-white p-2 rounded-full">
+                        <button onclick="nextImage()" class="bg-gray-800 text-white p-2 rounded-full">
                             &#10095;
                         </button>
                     </div>
@@ -29,11 +28,9 @@
 
                 <!-- Thumbnail -->
                 <div class="flex mt-4 space-x-2 justify-center">
-                    <template x-for="(image, index) in images">
-                        <img :src="image" class="w-16 h-16 object-cover rounded cursor-pointer border-2"
-                            :class="{'border-yellow-500': activeImage === index}" 
-                            @click="activeImage = index">
-                    </template>
+                    <img src="{{ asset('img/b.png') }}" class="thumbnail w-16 h-16 object-cover rounded cursor-pointer border-2 border-yellow-500" onclick="changeImage(0)">
+                    <img src="{{ asset('img/b.png') }}" class="thumbnail w-16 h-16 object-cover rounded cursor-pointer border-2" onclick="changeImage(1)">
+                    <img src="{{ asset('img/b.png') }}" class="thumbnail w-16 h-16 object-cover rounded cursor-pointer border-2" onclick="changeImage(2)">
                 </div>
             </div>
 
@@ -60,4 +57,33 @@
         </div>
     </div>
 </div>
+
+<script>
+    const images = [
+        "{{ asset('img/b.png') }}",
+        "{{ asset('img/b.png') }}",
+        "{{ asset('img/b.png') }}"
+    ];
+    let currentIndex = 0;
+    
+    function changeImage(index) {
+        currentIndex = index;
+        document.getElementById("mainImage").src = images[currentIndex];
+
+        // Update border on thumbnails
+        document.querySelectorAll(".thumbnail").forEach((img, idx) => {
+            img.classList.toggle("border-yellow-500", idx === currentIndex);
+        });
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        changeImage(currentIndex);
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        changeImage(currentIndex);
+    }
+</script>
 @endsection
