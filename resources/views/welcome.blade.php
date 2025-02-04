@@ -25,67 +25,67 @@
         <div class="container mx-auto px-6 w-3/4">
             <h2 class="text-4xl text-black font-bold text-center mb-10">Produk</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='/detail'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 text-center truncate">Kunci Pas Ring Uk.8mm</h3>
                     <p class="text-black font-extrabold text-center">Rp. 16.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Obeng Plus</h3>
                     <p class="text-black font-extrabold text-center">Rp. 12.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
                     <button class="mt-3 w-full bg-yellow-500 text-black font-bold py-2 rounded">Tambah</button>
                 </div>
-                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg">
+                <div class="bg-stone-300 text-black p-4 rounded-lg shadow-lg cursor-pointer" onclick="window.location.href='#detailproduk'">
                     <img src="img/b.png" class="w-full h-48 object-cover">
                     <h3 class="text-lg font-normal mt-4 truncate text-center">Tang Kombinasi</h3>
                     <p class="text-black font-extrabold text-center">Rp. 25.000</p>
