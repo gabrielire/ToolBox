@@ -11,3 +11,6 @@ Route::get('/keranjang', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
+Route::get('/masuk', function () {
+    return view('masuk');
+});

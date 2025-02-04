@@ -5,7 +5,7 @@
         <div class="relative z-10 max-w-4xl mx-auto flex items-center ">
             <div>
                 <h1 class="text-6xl font-bold text-white">Tool<span class="text-yellow-500">box.id</span></h1>
-                <h2 class="text-lg text-white mt-4">Pusat kontol Terlengkap</h2>
+                <h2 class="text-lg text-white mt-4">Pusat perkakas Terlengkap</h2>
                 <button onclick="scrollToProduk()" class="mt-6 bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg">Lihat Sekarang</button>
             </div>
             <img src="img/a.png" class="ml-10">
@@ -16,10 +16,10 @@
         <aside class="w-1/4 bg-stone-300 p-6 rounded-lg text-center">
             <h3 class="text-xl text-black font-bold mb-4">Kategori</h3>
             <ul>
-                <li class="mb-2"><a href="#produk" class="text-yellow-500 font-extrabold">Semua</a></li>
-                <li class="mb-2"><a href="#produk" class="text-black font-bold">Peralatan Tangan</a></li>
-                <li class="mb-2"><a href="#produk" class="text-black font-bold">Peralatan Listrik</a></li>
-                <li class="mb-2"><a href="#produk" class="text-black font-bold">Aksesoris</a></li>
+                <li class="mb-2"><a href="/welcome#produk" class="text-yellow-500 font-extrabold">Semua</a></li>
+                <li class="mb-2"><a href="/welcome#produk" class="text-black font-bold">Peralatan Tangan</a></li>
+                <li class="mb-2"><a href="/welcome#produk" class="text-black font-bold">Peralatan Listrik</a></li>
+                <li class="mb-2"><a href="/welcome#produk" class="text-black font-bold">Aksesoris</a></li>
             </ul>
         </aside>
         <div class="container mx-auto px-6 w-3/4">

@@ -26,5 +26,6 @@
     @include('component.navbar')
     @yield('content')
     @yield('keranjang')
+    @yield('detail')
 </body>
 </html>
