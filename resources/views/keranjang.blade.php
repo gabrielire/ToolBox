@@ -2,7 +2,7 @@
 @section('keranjang')
     <section id="keranjang" class="py-20">
         <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center mb-12">Keranjang</h2>
+            <h2 class="text-4xl font-bold text-center mb-12 pt-4">Keranjang</h2>
             <div class="bg-white shadow-md rounded-lg p-6">
                 <div class="border-b pb-4 mb-4">
                     <div class="flex items-center space-x-4">

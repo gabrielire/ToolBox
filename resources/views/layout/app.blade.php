@@ -22,7 +22,7 @@
         }   
     </style>
 </head>
-<body class="pt-28">
+<body>
     @include('component.navbar')
     @yield('content')
     @yield('keranjang')

@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('checkout')
+<div class="pt-28"></div>
 <div class="max-w-4xl w-full mx-auto bg-white p-6 rounded-lg shadow-md">
         <!-- Alamat Pengiriman -->
         <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
