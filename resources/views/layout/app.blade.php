@@ -28,5 +28,7 @@
     @yield('keranjang')
     @yield('detail')
     @yield('checkout')
+    @yield('masuk')
+    @yield('daftar')
 </body>
 </html>

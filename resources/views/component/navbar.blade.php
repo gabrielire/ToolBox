@@ -23,6 +23,8 @@
             document.getElementById("nav-produk").classList.add("active");
         } else if (path === "/masuk") {
             document.getElementById("nav-masuk").classList.add("active");
+        } else if (path === "/daftar") {
+            document.getElementById("nav-masuk").classList.add("active");
         } else if (path === "/checkout") {
             document.getElementById("nav-keranjang").classList.add("active");
         } else {
