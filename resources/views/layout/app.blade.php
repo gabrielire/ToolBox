@@ -22,10 +22,11 @@
         }   
     </style>
 </head>
-<body>
+<body class="pt-28">
     @include('component.navbar')
     @yield('content')
     @yield('keranjang')
     @yield('detail')
+    @yield('checkout')
 </body>
 </html>

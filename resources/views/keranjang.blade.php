@@ -19,7 +19,7 @@
                 <button class="w-full bg-gray-200 py-2 text-center rounded mt-4">+ Tambah Barang</button>
             </div>
             <div class="mt-6 text-center">
-                <button class="bg-black text-white px-6 py-3 rounded-lg">Beli Sekarang</button>
+                 <a href="/checkout" class="bg-black text-white px-6 py-3 font-bold rounded-lg inline-block">Beli Sekarang</a>
             </div>
         </div>
     </section>

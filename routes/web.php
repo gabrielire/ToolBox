@@ -14,3 +14,6 @@ Route::get('/detail', function () {
 Route::get('/masuk', function () {
     return view('masuk');
 });
+Route::get('/checkout', function () {
+    return view('checkout');
+});
