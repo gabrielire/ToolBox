@@ -1,22 +1,12 @@
 <?php
 
+use App\Http\Controllers\TampilanController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-Route::get('/keranjang', function () {
-    return view('keranjang');
-});
-Route::get('/detail', function () {
-    return view('detail');
-});
-Route::get('/masuk', function () {
-    return view('masuk');
-});
-Route::get('/checkout', function () {
-    return view('checkout');
-});
-Route::get('/daftar', function () {
-    return view('daftar');
-});
+Route::get('/', [TampilanController::class, 'Home'] );
+Route::get('/keranjang', [TampilanController::class, 'Keranjang'] );
+Route::get('/checkout', [TampilanController::class, 'Checkout'] );
+Route::get('/daftar', [TampilanController::class, 'Daftar'] );
+Route::get('/masuk', [TampilanController::class, 'Masuk'] );
+Route::get('/detail', [TampilanController::class, 'Detail'] );
+
